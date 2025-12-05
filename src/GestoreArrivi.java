@@ -33,7 +33,7 @@ public class GestoreArrivi implements Runnable {
                 if (clienteArrivato == null) {
                     break;
                 }
-                System.out.println("Arrivo Cliente Numero \t " + clienteArrivato + " dal totem: " +IDtotem);
+                System.out.println("Arrivo Cliente Numero \t " + clienteArrivato + "  dal totem: " +IDtotem);
             }
         } catch (InterruptedException e) {
             System.out.println("Thread interrotto durante lo sleep");
